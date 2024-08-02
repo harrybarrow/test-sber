@@ -7,7 +7,7 @@ docker build -t <image-name> .
 
 Запуск
 ```
-docker run -p 127.0.0.1:8000:8000 --name <container-name> <image-name>
+docker run -pd 127.0.0.1:8000:8000 --name <container-name> <image-name>
 ```
 
 Unit-тесты
